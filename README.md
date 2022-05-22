@@ -19,6 +19,8 @@ php example.php
 
 Given the [various caveats](https://en.wikipedia.org/wiki/Time_Stamp_Counter#Use) with `__rdtsc` this should be used with great care when trying to measure things.
 
+There also is a [PHP extension that provides the same functonality](https://github.com/edorian/php-ext-rdtsc) available.
+
 For most cases [**`getrusage()`**](https://www.php.net/manual/en/function.getrusage.php) should be preferable.
 
 # References
